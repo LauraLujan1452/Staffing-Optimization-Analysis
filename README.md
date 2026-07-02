@@ -41,6 +41,11 @@ The model predicts requirements by combining and aligning historical weather dat
   * `statsmodels` — Trend and baseline evaluation[cite: 1]
   * `scikit-learn` — Model training, train/test splitting, and evaluation metrics[cite: 1]
 
+## Data Sources & Attribution
+* **Hotel Bookings:** [Hotel Booking Demand dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand) on Kaggle, originally published by Antonio, Almeida & Nunes (2019), *"Hotel Booking Demand Datasets,"* Data in Brief, Vol. 22.
+* **Weather:** Historical daily weather data from [Met Éireann](https://www.met.ie/climate/available-data/historical-data), Ireland's National Meteorological Service.
+* **Dublin Events:** *(add source here once confirmed)*
+
 ## Repository Structure
 * `Staffing.ipynb` — The primary notebook containing data cleaning, merging, EDA, and model testing[cite: 1].
 * `DataSets/` — Local storage for raw CSV source files[cite: 1].
