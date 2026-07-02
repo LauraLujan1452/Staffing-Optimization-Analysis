@@ -37,7 +37,7 @@ The model predicts requirements by combining and aligning historical weather dat
 
 ![Average hotel occupancy by day of the week](Plots/plot_40.png)
 ### 6. Results
-The Random Forest model achieved an R² of 71% and RMSE of 16.66 guests on the held-out test set. The most influential features were "occupancy_yesterday", "occupancy_7d_avg", "occupancy_last_year", based on feature importance rankings.
+The Random Forest model achieved an R² of 71% and RMSE of 16.66 guests on the held-out test set. The most influential features were "occupancy_yesterday", "occupancy_7d_avg" and "occupancy_last_year", based on feature importance rankings.
 
 ![Feature importance ranking showing occupancy_yesterday as the dominant predictor](Plots/plot_68.png)
 
